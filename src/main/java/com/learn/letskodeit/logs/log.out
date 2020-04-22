@@ -1,0 +1,125 @@
+2020-04-19 13:04:852 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:597 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:520 INFO  HomePage :38 - Displaying Practice link : [[ChromeDriver: chrome on WINDOWS (747565235ce42597a146dd0ec66b6c01)] -> partial link text: Login]
+2020-04-19 13:04:982 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:166 INFO  HomePage :45 - Displaying Login link : [[ChromeDriver: chrome on WINDOWS (54660a7db1d37003575190d6f9b7b88b)] -> partial link text: Login]
+2020-04-19 13:04:854 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:278 INFO  HomePage :51 - Displaying Sign Up link : [[ChromeDriver: chrome on WINDOWS (966f438dcd1d49f1b832626384bf9910)] -> xpath: //a[@id='header-sign-up-btn']]
+2020-04-19 13:04:220 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:182 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (8a0802edccd15511a04e69bdbbf4ff3c)] -> partial link text: Login]
+2020-04-19 13:04:882 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:232 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (9c756f15e91d32ba4810e8351aa05dcd)] -> partial link text: Login]
+2020-04-19 13:04:52 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (9c756f15e91d32ba4810e8351aa05dcd)] -> id: user_email]
+2020-04-19 13:04:362 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (9c756f15e91d32ba4810e8351aa05dcd)] -> id: user_password]
+2020-04-19 13:04:698 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (9c756f15e91d32ba4810e8351aa05dcd)] -> name: commit]
+2020-04-19 13:04:355 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:138 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (66eaf404d435ac873bafca1005bceb63)] -> partial link text: Login]
+2020-04-19 13:04:405 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (66eaf404d435ac873bafca1005bceb63)] -> id: user_email]
+2020-04-19 13:04:774 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (66eaf404d435ac873bafca1005bceb63)] -> id: user_password]
+2020-04-19 13:04:349 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (66eaf404d435ac873bafca1005bceb63)] -> name: commit]
+2020-04-19 13:04:541 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (66eaf404d435ac873bafca1005bceb63)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 13:04:665 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (66eaf404d435ac873bafca1005bceb63)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 13:04:584 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:859 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (bae3efcae4298c63e1fd1b19179feedc)] -> partial link text: Login]
+2020-04-19 13:04:29 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (bae3efcae4298c63e1fd1b19179feedc)] -> id: user_email]
+2020-04-19 13:04:579 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (bae3efcae4298c63e1fd1b19179feedc)] -> id: user_password]
+2020-04-19 13:04:132 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (bae3efcae4298c63e1fd1b19179feedc)] -> name: commit]
+2020-04-19 13:04:188 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (bae3efcae4298c63e1fd1b19179feedc)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 13:04:331 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (bae3efcae4298c63e1fd1b19179feedc)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 13:04:60 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:905 INFO  HomePage :38 - Displaying Practice link : [[ChromeDriver: chrome on WINDOWS (b01522e7b737dc486cc9d69510d3ad73)] -> partial link text: Login]
+2020-04-19 13:04:338 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:447 INFO  HomePage :45 - Displaying Login link : [[ChromeDriver: chrome on WINDOWS (e180caca8c510fead33b95047cf55560)] -> partial link text: Login]
+2020-04-19 13:04:688 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:581 INFO  HomePage :51 - Displaying Sign Up link : [[ChromeDriver: chrome on WINDOWS (994060fcd1833790a573ffb611dab035)] -> xpath: //a[@id='header-sign-up-btn']]
+2020-04-19 13:04:786 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:162 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (a5be78bbedae676f6cb52825f96dfa07)] -> partial link text: Login]
+2020-04-19 13:04:858 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:588 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (a9108f64a119022ce4a38e2621bbc1ac)] -> partial link text: Login]
+2020-04-19 13:04:72 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (a9108f64a119022ce4a38e2621bbc1ac)] -> id: user_email]
+2020-04-19 13:04:452 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (a9108f64a119022ce4a38e2621bbc1ac)] -> id: user_password]
+2020-04-19 13:04:956 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (a9108f64a119022ce4a38e2621bbc1ac)] -> name: commit]
+2020-04-19 13:04:33 INFO  MyCoursesPage :33 - My Course Text is displayed : Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'My Courses')]'
+2020-04-19 13:04:162 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:784 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (a4bd187698bd24eb98c7b74231dcc159)] -> partial link text: Login]
+2020-04-19 13:04:647 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (a4bd187698bd24eb98c7b74231dcc159)] -> id: user_email]
+2020-04-19 13:04:258 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (a4bd187698bd24eb98c7b74231dcc159)] -> id: user_password]
+2020-04-19 13:04:602 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (a4bd187698bd24eb98c7b74231dcc159)] -> name: commit]
+2020-04-19 13:04:654 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (a4bd187698bd24eb98c7b74231dcc159)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 13:04:746 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (a4bd187698bd24eb98c7b74231dcc159)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 13:04:716 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:162 INFO  HomePage :38 - Displaying Practice link : [[ChromeDriver: chrome on WINDOWS (222626da80d2b45824697c051dea01b7)] -> partial link text: Login]
+2020-04-19 13:04:797 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:363 INFO  HomePage :45 - Displaying Login link : [[ChromeDriver: chrome on WINDOWS (659e50750636e92de4a23ae704e2587a)] -> partial link text: Login]
+2020-04-19 13:04:720 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:595 INFO  HomePage :51 - Displaying Sign Up link : [[ChromeDriver: chrome on WINDOWS (b5e493cd5c70dfe1e8cc3eb7221e0d25)] -> xpath: //a[@id='header-sign-up-btn']]
+2020-04-19 13:04:915 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:261 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (1a7b46b9dbd0770ad78b03e8bf26849c)] -> partial link text: Login]
+2020-04-19 13:04:724 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:54 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> partial link text: Login]
+2020-04-19 13:04:403 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> id: user_email]
+2020-04-19 13:04:847 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> id: user_password]
+2020-04-19 13:04:739 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> name: commit]
+2020-04-19 13:04:868 INFO  MyCoursesPage :33 - My Course Text is displayed : Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'My Courses')]'
+2020-04-19 13:04:78 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 13:04:606 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> partial link text: Login]
+2020-04-19 13:04:860 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> id: user_email]
+2020-04-19 13:04:579 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> id: user_password]
+2020-04-19 13:04:739 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> name: commit]
+2020-04-19 13:04:201 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 13:04:229 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 14:04:339 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:804 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (300cbf5674bf8c9e459d93d55623052f)] -> partial link text: Login]
+2020-04-19 14:04:816 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:345 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (a2b81137f352a448745356961bea8dff)] -> partial link text: Login]
+2020-04-19 14:04:573 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (a2b81137f352a448745356961bea8dff)] -> id: user_email]
+2020-04-19 14:04:887 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (a2b81137f352a448745356961bea8dff)] -> id: user_password]
+2020-04-19 14:04:651 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (a2b81137f352a448745356961bea8dff)] -> name: commit]
+2020-04-19 14:04:764 INFO  MyCoursesPage :33 - My Course Text is displayed : Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'My Courses')]'
+2020-04-19 14:04:718 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:672 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (960a2354c05d768869927385e9c7645b)] -> partial link text: Login]
+2020-04-19 14:04:621 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (960a2354c05d768869927385e9c7645b)] -> id: user_email]
+2020-04-19 14:04:27 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (960a2354c05d768869927385e9c7645b)] -> id: user_password]
+2020-04-19 14:04:234 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (960a2354c05d768869927385e9c7645b)] -> name: commit]
+2020-04-19 14:04:310 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (960a2354c05d768869927385e9c7645b)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 14:04:424 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (960a2354c05d768869927385e9c7645b)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 14:04:314 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:327 INFO  HomePage :38 - Displaying Practice link : [[ChromeDriver: chrome on WINDOWS (8ebce735654acb0a5399c4251418114e)] -> partial link text: Login]
+2020-04-19 14:04:448 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:672 INFO  HomePage :45 - Displaying Login link : [[ChromeDriver: chrome on WINDOWS (5de7d220028b7c65b831c235b124e020)] -> partial link text: Login]
+2020-04-19 14:04:691 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:331 INFO  HomePage :51 - Displaying Sign Up link : [[ChromeDriver: chrome on WINDOWS (662d9897814549face84610dc8c59327)] -> xpath: //a[@id='header-sign-up-btn']]
+2020-04-19 14:04:119 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:67 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (21dd04ca7eed910b398f6eb3f1b22fea)] -> partial link text: Login]
+2020-04-19 14:04:545 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:611 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (5e9e9ddf42baf4b3f661ee3ec1a62021)] -> partial link text: Login]
+2020-04-19 14:04:649 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (5e9e9ddf42baf4b3f661ee3ec1a62021)] -> id: user_email]
+2020-04-19 14:04:959 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (5e9e9ddf42baf4b3f661ee3ec1a62021)] -> id: user_password]
+2020-04-19 14:04:779 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (5e9e9ddf42baf4b3f661ee3ec1a62021)] -> name: commit]
+2020-04-19 14:04:865 INFO  MyCoursesPage :33 - My Course Text is displayed : Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'My Courses')]'
+2020-04-19 14:04:569 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:896 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (d0316aee4733356e897f4c5fde1aa229)] -> partial link text: Login]
+2020-04-19 14:04:411 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (d0316aee4733356e897f4c5fde1aa229)] -> id: user_email]
+2020-04-19 14:04:694 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (d0316aee4733356e897f4c5fde1aa229)] -> id: user_password]
+2020-04-19 14:04:189 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (d0316aee4733356e897f4c5fde1aa229)] -> name: commit]
+2020-04-19 14:04:237 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (d0316aee4733356e897f4c5fde1aa229)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 14:04:308 INFO  LoginPage :69 - Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (d0316aee4733356e897f4c5fde1aa229)] -> xpath: //div[@class='alert alert-danger']]
+2020-04-19 14:04:539 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:452 INFO  HomePage :38 - Displaying Practice link : [[ChromeDriver: chrome on WINDOWS (b9fc0d0191b7e0a41b63a2041d895e51)] -> partial link text: Login]
+2020-04-19 14:04:126 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:178 INFO  HomePage :45 - Displaying Login link : [[ChromeDriver: chrome on WINDOWS (401e7224ccdc73e60deb83013b110a5e)] -> partial link text: Login]
+2020-04-19 14:04:873 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:874 INFO  HomePage :51 - Displaying Sign Up link : [[ChromeDriver: chrome on WINDOWS (65a11fa379aeea59576f335f34fb2772)] -> xpath: //a[@id='header-sign-up-btn']]
+2020-04-19 14:04:138 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:760 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (3962b8cf7cab81ce541354ed02336dad)] -> partial link text: Login]
+2020-04-19 14:04:86 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:526 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (279e3efd4848a8ab5f25084b158ef06d)] -> partial link text: Login]
+2020-04-19 14:04:232 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (279e3efd4848a8ab5f25084b158ef06d)] -> id: user_email]
+2020-04-19 14:04:519 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (279e3efd4848a8ab5f25084b158ef06d)] -> id: user_password]
+2020-04-19 14:04:543 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (279e3efd4848a8ab5f25084b158ef06d)] -> name: commit]
+2020-04-19 14:04:656 INFO  MyCoursesPage :33 - My Course Text is displayed : Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'My Courses')]'
+2020-04-19 14:04:778 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-04-19 14:04:140 INFO  HomePage :64 - Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (81c79b2a0bfc41ce1ac0cf1f12a6fd0a)] -> partial link text: Login]
+2020-04-19 14:04:475 INFO  LoginPage :50 - Entering Email : [[ChromeDriver: chrome on WINDOWS (81c79b2a0bfc41ce1ac0cf1f12a6fd0a)] -> id: user_email]
+2020-04-19 14:04:875 INFO  LoginPage :56 - Entering Password : [[ChromeDriver: chrome on WINDOWS (81c79b2a0bfc41ce1ac0cf1f12a6fd0a)] -> id: user_password]
+2020-04-19 14:04:146 INFO  LoginPage :63 - Clicking on Login Button: [[ChromeDriver: chrome on WINDOWS (81c79b2a0bfc41ce1ac0cf1f12a6fd0a)] -> name: commit]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="com.learn.letskodeit.listeners.Listeners"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+    <test name="Lets Kode It">
+        <classes>
+            <class name="com.learn.letskodeit.testsuite.HomePageTest"/>
+            <class name="com.learn.letskodeit.testsuite.LoginTest"/>
+        </classes>
+    </test>
+
+
+</suite>

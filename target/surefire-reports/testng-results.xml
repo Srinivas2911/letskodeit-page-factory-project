@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Displaying Practice Link [[ChromeDriver: chrome on WINDOWS (222626da80d2b45824697c051dea01b7)] -> partial link text: Practi]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Launching Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Displaying Login link : [[ChromeDriver: chrome on WINDOWS (659e50750636e92de4a23ae704e2587a)] -> partial link text: Login]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Launching Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Displaying Sign Up Link : [[ChromeDriver: chrome on WINDOWS (b5e493cd5c70dfe1e8cc3eb7221e0d25)] -> xpath: //a[@id='header-sign-up-btn']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Launching Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (1a7b46b9dbd0770ad78b03e8bf26849c)] -> partial link text: Login]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the LogIn Text : [[ChromeDriver: chrome on WINDOWS (1a7b46b9dbd0770ad78b03e8bf26849c)] -> class name: text-center]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Launching Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> partial link text: Login]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering Email  : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> id: user_email]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> id: user_password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> name: commit]<br>]]>
+    </line>
+    <line>
+      <![CDATA[My Course Text is displayed  : Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'My Courses')]'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Launching Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> partial link text: Login]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering Email  : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> id: user_email]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> id: user_password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> name: commit]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> xpath: //div[@class='alert alert-danger']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> xpath: //div[@class='alert alert-danger']]<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="157520" started-at="2020-04-19T13:54:31 BST" finished-at="2020-04-19T13:57:09 BST">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTest.verifyThatSignUpLinkIsDisplayed()[pri:2, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="verifyThatSignUpLinkIsDisplayed" class="com.learn.letskodeit.testsuite.HomePageTest"/>
+        <method signature="LoginTest.verifyThatUserIsAbleToLogInSuccessfully()[pri:1, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="verifyThatUserIsAbleToLogInSuccessfully" class="com.learn.letskodeit.testsuite.LoginTest"/>
+        <method signature="LoginTest.verifyThatUserShouldNotToLogWithInvalidCredentials()[pri:2, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="verifyThatUserShouldNotToLogWithInvalidCredentials" class="com.learn.letskodeit.testsuite.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="HomePageTest.verifyThatLoginLinkIsDisplayed()[pri:1, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="verifyThatLoginLinkIsDisplayed" class="com.learn.letskodeit.testsuite.HomePageTest"/>
+        <method signature="HomePageTest.verifyThatSignUpLinkIsDisplayed()[pri:2, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="verifyThatSignUpLinkIsDisplayed" class="com.learn.letskodeit.testsuite.HomePageTest"/>
+        <method signature="LoginTest.verifyThatLoginPageWelcomeTextisDisplayed()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="verifyThatLoginPageWelcomeTextisDisplayed" class="com.learn.letskodeit.testsuite.LoginTest"/>
+        <method signature="LoginTest.verifyThatUserIsAbleToLogInSuccessfully()[pri:1, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="verifyThatUserIsAbleToLogInSuccessfully" class="com.learn.letskodeit.testsuite.LoginTest"/>
+        <method signature="LoginTest.verifyThatUserShouldNotToLogWithInvalidCredentials()[pri:2, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="verifyThatUserShouldNotToLogWithInvalidCredentials" class="com.learn.letskodeit.testsuite.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="HomePageTest.verifyThatLoginLinkIsDisplayed()[pri:1, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="verifyThatLoginLinkIsDisplayed" class="com.learn.letskodeit.testsuite.HomePageTest"/>
+        <method signature="HomePageTest.verifyThatPracticeLinkIsDisplayed()[pri:0, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="verifyThatPracticeLinkIsDisplayed" class="com.learn.letskodeit.testsuite.HomePageTest"/>
+        <method signature="LoginTest.verifyThatLoginPageWelcomeTextisDisplayed()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="verifyThatLoginPageWelcomeTextisDisplayed" class="com.learn.letskodeit.testsuite.LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Surefire test" duration-ms="157520" started-at="2020-04-19T13:54:31 BST" finished-at="2020-04-19T13:57:09 BST">
+      <class name="com.learn.letskodeit.testsuite.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="openBrowser" is-config="true" duration-ms="11999" started-at="2020-04-19T13:55:23 BST" finished-at="2020-04-19T13:55:35 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUPMethod()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="setUPMethod" is-config="true" duration-ms="15" started-at="2020-04-19T13:55:35 BST" finished-at="2020-04-19T13:55:35 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPMethod -->
+        <test-method status="FAIL" signature="verifyThatLoginPageWelcomeTextisDisplayed()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="verifyThatLoginPageWelcomeTextisDisplayed" duration-ms="364" started-at="2020-04-19T13:55:35 BST" finished-at="2020-04-19T13:55:36 BST">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.By]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.By
+at com.learn.letskodeit.pages.LoginPage.LoginPageTextIsDisplayed(LoginPage.java:43)
+at com.learn.letskodeit.testsuite.LoginTest.verifyThatLoginPageWelcomeTextisDisplayed(LoginTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (1a7b46b9dbd0770ad78b03e8bf26849c)] -> partial link text: Login]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the LogIn Text : [[ChromeDriver: chrome on WINDOWS (1a7b46b9dbd0770ad78b03e8bf26849c)] -> class name: text-center]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatLoginPageWelcomeTextisDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="1412" started-at="2020-04-19T13:55:36 BST" finished-at="2020-04-19T13:55:37 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="openBrowser" is-config="true" duration-ms="15053" started-at="2020-04-19T13:55:37 BST" finished-at="2020-04-19T13:55:52 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUPMethod()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="setUPMethod" is-config="true" duration-ms="10" started-at="2020-04-19T13:55:52 BST" finished-at="2020-04-19T13:55:52 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPMethod -->
+        <test-method status="FAIL" signature="verifyThatUserIsAbleToLogInSuccessfully()[pri:1, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="verifyThatUserIsAbleToLogInSuccessfully" duration-ms="42139" started-at="2020-04-19T13:55:52 BST" finished-at="2020-04-19T13:56:34 BST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'My Courses')]"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7HUNRUID', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\srini\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8a3a8ebe335ed7d690d77cf90218cb0d
+*** Element info: {Using=xpath, value=//a[contains(text(),'My Courses')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'My Courses')]"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7HUNRUID', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\srini\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8a3a8ebe335ed7d690d77cf90218cb0d
+*** Element info: {Using=xpath, value=//a[contains(text(),'My Courses')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy7.getText(Unknown Source)
+at com.learn.letskodeit.utility.Utility.getTextFromElement(Utility.java:65)
+at com.learn.letskodeit.pages.MyCoursesPage.getMyCourseText(MyCoursesPage.java:34)
+at com.learn.letskodeit.testsuite.LoginTest.verifyThatUserIsAbleToLogInSuccessfully(LoginTest.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> partial link text: Login]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering Email  : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> id: user_email]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> id: user_password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> name: commit]<br>]]>
+            </line>
+            <line>
+              <![CDATA[My Course Text is displayed  : Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'My Courses')]'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserIsAbleToLogInSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="1148" started-at="2020-04-19T13:56:34 BST" finished-at="2020-04-19T13:56:36 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="openBrowser" is-config="true" duration-ms="15515" started-at="2020-04-19T13:56:36 BST" finished-at="2020-04-19T13:56:51 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUPMethod()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="setUPMethod" is-config="true" duration-ms="75" started-at="2020-04-19T13:56:51 BST" finished-at="2020-04-19T13:56:51 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPMethod -->
+        <test-method status="PASS" signature="verifyThatUserShouldNotToLogWithInvalidCredentials()[pri:2, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="verifyThatUserShouldNotToLogWithInvalidCredentials" duration-ms="15616" started-at="2020-04-19T13:56:51 BST" finished-at="2020-04-19T13:57:07 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> partial link text: Login]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering Email  : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> id: user_email]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> id: user_password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> name: commit]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> xpath: //div[@class='alert alert-danger']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> xpath: //div[@class='alert alert-danger']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldNotToLogWithInvalidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learn.letskodeit.testsuite.LoginTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="1736" started-at="2020-04-19T13:57:07 BST" finished-at="2020-04-19T13:57:09 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learn.letskodeit.testsuite.LoginTest -->
+      <class name="com.learn.letskodeit.testsuite.HomePageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="openBrowser" is-config="true" duration-ms="17155" started-at="2020-04-19T13:54:31 BST" finished-at="2020-04-19T13:54:48 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUPMethod()[pri:0, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="setUPMethod" is-config="true" duration-ms="75" started-at="2020-04-19T13:54:48 BST" finished-at="2020-04-19T13:54:48 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPMethod -->
+        <test-method status="PASS" signature="verifyThatPracticeLinkIsDisplayed()[pri:0, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="verifyThatPracticeLinkIsDisplayed" duration-ms="257" started-at="2020-04-19T13:54:48 BST" finished-at="2020-04-19T13:54:49 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Displaying Practice Link [[ChromeDriver: chrome on WINDOWS (222626da80d2b45824697c051dea01b7)] -> partial link text: Practi]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatPracticeLinkIsDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="tearDown" is-config="true" duration-ms="1567" started-at="2020-04-19T13:54:49 BST" finished-at="2020-04-19T13:54:50 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="openBrowser" is-config="true" duration-ms="15394" started-at="2020-04-19T13:54:50 BST" finished-at="2020-04-19T13:55:06 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUPMethod()[pri:0, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="setUPMethod" is-config="true" duration-ms="6" started-at="2020-04-19T13:55:06 BST" finished-at="2020-04-19T13:55:06 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPMethod -->
+        <test-method status="PASS" signature="verifyThatLoginLinkIsDisplayed()[pri:1, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="verifyThatLoginLinkIsDisplayed" duration-ms="169" started-at="2020-04-19T13:55:06 BST" finished-at="2020-04-19T13:55:06 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Displaying Login link : [[ChromeDriver: chrome on WINDOWS (659e50750636e92de4a23ae704e2587a)] -> partial link text: Login]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatLoginLinkIsDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="tearDown" is-config="true" duration-ms="1353" started-at="2020-04-19T13:55:06 BST" finished-at="2020-04-19T13:55:07 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="openBrowser" is-config="true" duration-ms="14761" started-at="2020-04-19T13:55:07 BST" finished-at="2020-04-19T13:55:22 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUPMethod()[pri:0, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="setUPMethod" is-config="true" duration-ms="3" started-at="2020-04-19T13:55:22 BST" finished-at="2020-04-19T13:55:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPMethod -->
+        <test-method status="PASS" signature="verifyThatSignUpLinkIsDisplayed()[pri:2, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="verifyThatSignUpLinkIsDisplayed" duration-ms="113" started-at="2020-04-19T13:55:22 BST" finished-at="2020-04-19T13:55:22 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Displaying Sign Up Link : [[ChromeDriver: chrome on WINDOWS (b5e493cd5c70dfe1e8cc3eb7221e0d25)] -> xpath: //a[@id='header-sign-up-btn']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatSignUpLinkIsDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learn.letskodeit.testsuite.HomePageTest@2d8f65a4]" name="tearDown" is-config="true" duration-ms="1317" started-at="2020-04-19T13:55:22 BST" finished-at="2020-04-19T13:55:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learn.letskodeit.testsuite.HomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

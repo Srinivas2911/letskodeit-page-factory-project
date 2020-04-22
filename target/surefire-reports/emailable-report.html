@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">157,520</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.learn.letskodeit.testsuite.LoginTest</td><td><a href="#m0">verifyThatLoginPageWelcomeTextisDisplayed</a></td><td rowspan="1">1587300935929</td><td rowspan="1">364</td></tr><tr class="failedeven"><td><a href="#m1">verifyThatUserIsAbleToLogInSuccessfully</a></td><td rowspan="1">1587300952787</td><td rowspan="1">42139</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.learn.letskodeit.testsuite.HomePageTest</td><td><a href="#m2">verifyThatLoginLinkIsDisplayed</a></td><td rowspan="1">1587300906195</td><td rowspan="1">169</td></tr><tr class="passedeven"><td><a href="#m3">verifyThatPracticeLinkIsDisplayed</a></td><td rowspan="1">1587300888906</td><td rowspan="1">257</td></tr><tr class="passedeven"><td><a href="#m4">verifyThatSignUpLinkIsDisplayed</a></td><td rowspan="1">1587300922483</td><td rowspan="1">113</td></tr><tr class="passedodd"><td rowspan="1">com.learn.letskodeit.testsuite.LoginTest</td><td><a href="#m5">verifyThatUserShouldNotToLogWithInvalidCredentials</a></td><td rowspan="1">1587301011669</td><td rowspan="1">15616</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">com.learn.letskodeit.testsuite.LoginTest#verifyThatLoginPageWelcomeTextisDisplayed</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (1a7b46b9dbd0770ad78b03e8bf26849c)] -> partial link text: Login]<br><br/>Verifying the LogIn Text : [[ChromeDriver: chrome on WINDOWS (1a7b46b9dbd0770ad78b03e8bf26849c)] -> class name: text-center]<br></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ClassCastException: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.By
+	at com.learn.letskodeit.pages.LoginPage.LoginPageTextIsDisplayed(LoginPage.java:43)
+	at com.learn.letskodeit.testsuite.LoginTest.verifyThatLoginPageWelcomeTextisDisplayed(LoginTest.java:28)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.learn.letskodeit.testsuite.LoginTest#verifyThatUserIsAbleToLogInSuccessfully</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> partial link text: Login]<br><br/>Entering Email  : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> id: user_email]<br><br/>Entering Password : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> id: user_password]<br><br/>Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (8a3a8ebe335ed7d690d77cf90218cb0d)] -> name: commit]<br><br/>My Course Text is displayed  : Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'My Courses')]'<br></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;My Courses&apos;)]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7HUNRUID&apos;, ip: &apos;192.168.0.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\srini\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8a3a8ebe335ed7d690d77cf90218cb0d
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;My Courses&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getText(Unknown Source)
+	at com.learn.letskodeit.utility.Utility.getTextFromElement(Utility.java:65)
+	at com.learn.letskodeit.pages.MyCoursesPage.getMyCourseText(MyCoursesPage.java:34)
+	at com.learn.letskodeit.testsuite.LoginTest.verifyThatUserIsAbleToLogInSuccessfully(LoginTest.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.learn.letskodeit.testsuite.HomePageTest#verifyThatLoginLinkIsDisplayed</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Displaying Login link : [[ChromeDriver: chrome on WINDOWS (659e50750636e92de4a23ae704e2587a)] -> partial link text: Login]<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.learn.letskodeit.testsuite.HomePageTest#verifyThatPracticeLinkIsDisplayed</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Displaying Practice Link [[ChromeDriver: chrome on WINDOWS (222626da80d2b45824697c051dea01b7)] -> partial link text: Practi]<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.learn.letskodeit.testsuite.HomePageTest#verifyThatSignUpLinkIsDisplayed</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Displaying Sign Up Link : [[ChromeDriver: chrome on WINDOWS (b5e493cd5c70dfe1e8cc3eb7221e0d25)] -> xpath: //a[@id='header-sign-up-btn']]<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.learn.letskodeit.testsuite.LoginTest#verifyThatUserShouldNotToLogWithInvalidCredentials</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Clicking on Login link : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> partial link text: Login]<br><br/>Entering Email  : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> id: user_email]<br><br/>Entering Password : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> id: user_password]<br><br/>Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> name: commit]<br><br/>Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> xpath: //div[@class='alert alert-danger']]<br><br/>Getting the Alert Message : [[ChromeDriver: chrome on WINDOWS (04a5b906a090319d62cfb6608c62574a)] -> xpath: //div[@class='alert alert-danger']]<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

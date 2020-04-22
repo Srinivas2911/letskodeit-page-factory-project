@@ -1,0 +1,7 @@
+com\learn\letskodeit\pages\MyCoursesPage.class
+com\learn\letskodeit\basepage\BasePage.class
+com\learn\letskodeit\pages\LoginPage.class
+com\learn\letskodeit\utility\Utility.class
+com\learn\letskodeit\browserselector\BrowserSelector.class
+com\learn\letskodeit\pages\HomePage.class
+com\learn\letskodeit\loadproperty\LoadProperty.class
